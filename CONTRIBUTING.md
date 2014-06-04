@@ -42,6 +42,18 @@ Basically the Google style guides for
 * Objects remain monomorphic (e.g. no additional properties will be defined
   on an object after it has been defined).
 
+**General Guidelines**
+
+* Class methods that act as data accessors to private class variables, or
+  methods that perform libuv specific functionality, are delineated by
+  underscores and an attempt should be made to keep them less than two words.
+  While class methods that perform more V8 specific functionality should use
+  CamelCase.
+
+* No class variables are accessed directly. Instead they are accessed via inline
+  class methods. These inline class methods are located in {file}-inl.h
+
+* Private class variables should always end with an underscore.
 
 ### COMMUNITY
 

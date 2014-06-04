@@ -1,0 +1,6 @@
+[submodule "deps/v8"]
+	path = deps/v8
+	url = https://github.com/nubjs/v8-git-mirror.git
+[submodule "deps/nub"]
+	path = deps/nub
+	url = https://github.com/nubjs/libnub.git
