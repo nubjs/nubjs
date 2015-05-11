@@ -4,3 +4,7 @@ run
 perf.*
 nubjs
 nubjs_g
+*~
+config.gypi
+config.mk
+out/*
