@@ -1,5 +1,5 @@
-#ifndef NUBJS_DLIST_H_
-#define NUBJS_DLIST_H_
+#ifndef SRC_DLIST_H_
+#define SRC_DLIST_H_
 
 typedef struct dlist {
   struct dlist* prev;
@@ -42,4 +42,4 @@ static inline dlist* dlist_prev(dlist* dl) {
   return dl->prev;
 }
 
-#endif  // NUBJS_DLIST_H_
+#endif  // SRC_DLIST_H_

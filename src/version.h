@@ -1,5 +1,5 @@
-#ifndef SRC_NUBJS_VERSION_H_
-#define SRC_NUBJS_VERSION_H_
+#ifndef SRC_VERSION_H_
+#define SRC_VERSION_H_
 
 #define NUBJS_MAJOR_VERSION 0
 #define NUBJS_MINOR_VERSION 1
@@ -41,4 +41,4 @@
 
 #define NUBJS_MODULE_VERSION 1
 
-#endif  /* SRC_NUBJS_VERSION_H_ */
+#endif  /* SRC_VERSION_H_ */

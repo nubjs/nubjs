@@ -1,5 +1,5 @@
-#ifndef NUBJS_NUB_H_
-#define NUBJS_NUB_H_
+#ifndef SRC_NUBJS_H_
+#define SRC_NUBJS_H_
 
 namespace nubjs {
 
@@ -7,4 +7,4 @@ int Run(int argc, char** argv);
 
 }  // namespace nubjs
 
-#endif  // NUBJS_NUB_H_
+#endif  // SRC_NUBJS_H_

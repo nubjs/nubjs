@@ -1,5 +1,5 @@
-#ifndef NUBJS_UTIL_H_
-#define NUBJS_UTIL_H_
+#ifndef SRC_UTIL_H_
+#define SRC_UTIL_H_
 
 #include "uv.h"
 
@@ -68,4 +68,4 @@ namespace nubjs {
 
 }  // namespace nubjs
 
-#endif  // NUBJS_UTIL_H_
+#endif  // SRC_UTIL_H_
