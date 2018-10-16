@@ -29,13 +29,15 @@
       ],
 
       'sources': [
+        'src/jsthread.cc',
         'src/main.cc',
         'src/nubjs.cc',
         # headers to make for a more pleasant IDE experience
         'src/dlist.h',
+        'src/jsthread.h',
         'src/nubjs.h',
         'src/util.h',
-        'src/version.h',
+        'src/nubjs_version.h',
         'deps/v8/include/v8.h',
         'deps/v8/include/v8-debug.h',
         '<(SHARED_INTERMEDIATE_DIR)/nubjs_natives.h',
